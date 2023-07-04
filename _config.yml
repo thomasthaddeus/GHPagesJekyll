@@ -9,3 +9,34 @@ description: > # this means to ignore newlines until "baseurl:"
 twitter_username: thaddeusmaxima # DO NOT include the @ character, or else the build will fail!
 github_username:  thomasthaddeus
 show_excerpts: true # set to false to remove excerpts on the homepage
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  ctfs_and_challenges:
+    output: true
+    permalink: /:collection/:path
