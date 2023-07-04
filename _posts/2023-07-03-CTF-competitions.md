@@ -1,4 +1,11 @@
-# Blog Post #1: Beginner's Guide to Cybersecurity Capture The Flag Competitions
+---
+title: Blog Post #1 - {% assign date %}
+theme: jekyll-theme-midnight
+permalink: _posts/2023-07-03-CTF-competitions.md
+---
+
+
+## Beginner's Guide to Cybersecurity Capture The Flag Competitions
 
 The world of cybersecurity is always evolving and challenging, offering opportunities for continuous learning and growth. One particularly effective and exciting method for honing your skills in this field is by participating in cybersecurity Capture The Flag (CTF) competitions. Cybersecurity CTFs are essentially hacking competitions designed to challenge and educate participants on real-world scenarios and security issues.
 
@@ -10,12 +17,15 @@ A Cybersecurity CTF is a type of competition where participants attempt to solve
 
 In the cybersecurity context, 'flags' are hidden in various locations, often protected by layers of security, and participants must bypass or crack these security measures to capture the flag. These flags can be literal string codes, files, or some form of digital artifact.
 
-There are two main types of CTFs: 
+There are two main types of CTFs:
 
-- Jeopardy-style
-  - In Jeopardy-style CTFs, teams or individuals earn points for completing tasks in various categories like web, forensics, cryptography, binary, reverse engineering, and more.
-- Attack-Defense.
--   Attack-Defense CTFs are more dynamic, where each team has their network or server with vulnerable services. They gain points by maintaining their services and stealing flags from other teams.
+1. **Jeopardy-style**
+
+   - In Jeopardy-style CTFs, teams or individuals earn points for completing tasks in various categories like web, forensics, cryptography, binary, reverse engineering, and more.
+
+2. **Attack-Defense**
+
+   - Attack-Defense CTFs are more dynamic, where each team has their network or server with vulnerable services. They gain points by maintaining their services and stealing flags from other teams.
 
 ## Getting Started
 

@@ -1,10 +1,14 @@
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: Thads Tech Blog
+
 theme: jekyll-theme-cayman
 title: Learning how to use GitHub
-author: thomasthaddeus
+author: Thaddeus Thomas
 email: thomasthaddeus@cityuniversity.edu
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to my blog. I talk about all things interesting to me.
   For now lets call it tech talk.
+url: http://apparellnstuff.me/blog
 # social links
 twitter_username: thaddeusmaxima # DO NOT include the @ character, or else the build will fail!
 github_username:  thomasthaddeus
@@ -40,3 +44,18 @@ collections:
   ctfs_and_challenges:
     output: true
     permalink: /:collection/:path
+
+
+# The directory for category index pages. Change it to something else if
+# for example you want links like /categories/category1 instead of /category1
+category_dir: /
+
+# Uncomment if you are planning to run the blog in a subdirectory
+# Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
+# Example, you must use http://localhost:4000/path/to/blog
+#baseurl: /path/to/blog
+# baseurl:
+
+
+paginate: 3
+gems: [jekyll-paginate]

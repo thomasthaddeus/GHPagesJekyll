@@ -12,12 +12,12 @@ I'll be talking about CTF's and other nonsense. Whatever comes to mind as I'm wr
 
 For now I'm going to make a todo list to get this up and running.
 
-- [ ] Change directory
+- [x] Change directory
 - [x] Add posts
-- [ ] update `_config.yml`
-- [ ] update `index.md`
-- [ ] move these files to one repo
-- [ ] Come up with subjects
-- [ ] set schedule for posting
-- [ ] post the blog to a indiscrete location
-- [ ] Name the Blog
+- [x] update `_config.yml`
+- [x] update `index.md`
+- [x] move these files to one repo
+- [x] Come up with subjects
+- [x] set schedule for posting
+- [x] post the blog to an indiscrete location
+- [x] Name the Blog
